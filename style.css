@@ -1,0 +1,154 @@
+.secondary-text-white {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.button-sign-up {
+    color: inherit;
+    font-weight: bold;
+    background: #3882F6;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 25px;
+}
+
+.thumbnail-container {
+    display: flex;
+    gap: 50px;
+}
+
+.thumbnail {
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    min-width: 150px;
+    min-height: 180px;
+    height: auto;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #F9FAF8;
+}
+
+p {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#header {
+    
+    background: #1f2937;
+    display: flex;
+    padding: 4px 180px;
+    align-items: center;
+}
+
+#header h1 {
+    font-size: 24px;
+    margin-right: auto;
+}
+
+#header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 24px;
+}
+
+#header a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+#row-1 {
+    background: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    padding: 50px 180px;
+    justify-content: center;
+    gap: 20px;
+}
+
+#row-1 h2 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+    margin-top: 8px;
+}
+
+#row-1 img {
+    height: auto;
+    min-width: 500px;
+}
+
+#row-2 {
+    color: #1f2937;
+    text-align: center;
+    padding: 50px 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+#row-2 h3 {
+    font-size: 36px;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#row-3 {
+    background: #E5E7EB;
+    padding: 50px 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+#row-3 p {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+#row-3>*:nth-child(2) {
+    align-self: flex-end;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 180px;  
+}
+
+.container-blue {
+    background: #3882F6;
+    color: #F9FAF8;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 30px 120px;
+    border-radius: 10px;
+    display: flex;
+    gap: 100px;
+
+}
+
+.container-blue .button-sign-up {
+    border: 2px solid #F9FAF8;
+    align-self: flex-end;
+    margin: auto 0 auto auto;
+}
+
+
+
